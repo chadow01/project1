@@ -1,4 +1,62 @@
 
-#img{
-    height: 465px;
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.carousel-control-next {
+    right: 0;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.carousel-item {
+    height: 32rem;
+}
+main {
+    display: block;
+}
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel {
+    position: relative;
+}
+div {
+    display: block;
+}
+
+.featurette-heading {
+    margin-top: 7rem;
+}
+.featurette-heading {
+    letter-spacing: -.05rem;
+}
+.lh-1 {
+    line-height: 1!important;
+}
+.fw-normal {
+    font-weight: 400!important;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
 }
