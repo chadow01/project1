@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Shantell+Sans&family=Sriracha&display=swap');
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
 }
@@ -59,4 +59,16 @@ div {
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-right: auto;
     margin-left: auto;
+}
+.navbar-brand{
+    font-family: 'Shantell Sans', cursive;
+}
+h1{
+    font-family: 'Tilt Prism', cursive;
+}
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+#showForm{
+    text-align: left;
 }
